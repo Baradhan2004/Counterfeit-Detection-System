@@ -1,0 +1,2 @@
+C++ engine (feature extraction + RNN, -O2): 34863 ns/inference  (28683 inferences/s)  checksum=10373.866305
+NumPy single-sample path: 338363 ns/inference  (2955 inferences/s)

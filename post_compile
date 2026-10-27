@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Heroku python buildpack runs this after pip install: compile the C++ engine on the dyno.
+set -e
+make clean && make

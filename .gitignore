@@ -1,0 +1,4 @@
+bin/engine
+artifacts/*.npy
+__pycache__/
+*.pyc

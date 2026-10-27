@@ -1,0 +1,16 @@
+test_api (__main__.TestCppParity.test_api) ... ok
+test_cpp_matches_numpy (__main__.TestCppParity.test_cpp_matches_numpy) ... 
+  C++ vs NumPy parity on 300 profiles: max |diff| = 2.22e-15
+ok
+test_shape_and_values (__main__.TestFeatures.test_shape_and_values) ... ok
+test_can_overfit_tiny_batch (__main__.TestRNN.test_can_overfit_tiny_batch) ... ok
+test_gradient_check (__main__.TestRNN.test_gradient_check)
+Analytic BPTT gradients vs central finite differences on every parameter. ... 
+  gradient check: 37 parameters, max relative error 5.43e-08
+ok
+test_param_count (__main__.TestRNN.test_param_count) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.541s
+
+OK
